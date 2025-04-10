@@ -1,0 +1,15 @@
+name: ImgTrail
+version: '1.0-SNAPSHOT'
+main: net.zypr.imgTrail.ImgTrail
+api-version: '1.21'
+authors: [ ZyprA ]
+description: ImgTrail is a plugin that player can portray of their own trail.
+
+commands:
+    imgtrail:
+        description: The main command for ImgTrail.
+        usage: /imgtrail <url>
+        permission: imgtrail.command
+        permission-message: You do not have permission to use this command.
+        aliases: [ it ]
+        permission-default: true
